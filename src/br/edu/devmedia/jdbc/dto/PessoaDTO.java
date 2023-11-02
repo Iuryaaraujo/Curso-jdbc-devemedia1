@@ -10,11 +10,11 @@ public class PessoaDTO {
     private Character sexo;
     private Date dtNascimento;
 
-    public Integer getIdPessoa() {
+    public int getIdPessoa() {
         return idPessoa;
     }
 
-    public void setIdPessoa(Integer idPessoa) {
+    public void setIdPessoa(int i) {
         this.idPessoa = idPessoa;
     }
 
